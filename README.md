@@ -30,3 +30,12 @@ Objetivos específicos:
 Para el proyecto se utilizaron 2 datasets del proyecto Million Songs Dataset (MSD, disponible en: http://millionsongdataset.com).  El primero es el dataset principal MSD, el cual contiene los metadatos para 1 millón de canciones.  El segundo consiste en el conjunto “Taste Profile subset”, el cual contiene información de reproducciones de canciones por usuario en tripletas (usuario-cancion-reproducciones).
 
 Originalmente considerábamos que podíamos obtener más información del dataset de canciones, pues en la documentación se referenciaban 46 atributos.  Pero la distribución del dataset es a través de un snapshot de disco para una instancia EC2 de AWS y si bien pudimos adjuntar el snapshot a una instancia, no pudimos extraer la información para ponerla disponible en S3 o en otro medio que nos permitiera tener el almacenamiento distribuido para consumirlo desde el cluster.
+
+
+## Carpetas del repositorio
+
+Este repositorio cuenta con tres carpetas y un archivo en PDF.
+
+* Carpeta Dataset: Se encuentran los datos que se utilizaron para la modelación, estos datos son una submuestra ya que el tamaño original es mas grande. Adicionalmente se encuentran los archivos en csv que resultaron de la partición de los datos.
+* Carpeta Modelación: Contiene 3 libros de jupyter con los codigos que se utilizaron durante la solución del proyecto, el primero de partición de los datos, el segundo hace referencia a la modelación y el ultimo a la evaluacion del modelo.
+* Carpeta Resultados Muestra: Contiene unos archivos resultados del modelo y la evaluación, esto es solo una muestra pequeña de todos los resultados, la totalidad de los resultados se encuentran almacenados en S3.
