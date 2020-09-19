@@ -3,7 +3,7 @@ Repositorio para el trabajo final de mineria de grandes volumenes
 
 ## SISTEMA DE RECOMENDACIÓN DE CANCIONES
 
-Este repositorio contiene el desarrollo y los resultados del proyecto integrador para el semestre 2020-01 de la Maestria en ciencia de los datos y analítica de la universidad EAFIT.
+Este repositorio contiene el desarrollo y los resultados del trabajo final de mineria de grandes volumenes de datos para el semestre 2020-02 de la Maestria en ciencia de los datos y analítica de la universidad EAFIT.
 
 Los estudiantes que presentan este trabajo son:
 
