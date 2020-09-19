@@ -37,5 +37,9 @@ Originalmente considerábamos que podíamos obtener más información del datase
 Este repositorio cuenta con tres carpetas y un archivo en PDF.
 
 * Carpeta Dataset: Se encuentran los datos que se utilizaron para la modelación, estos datos son una submuestra ya que el tamaño original es mas grande. Adicionalmente se encuentran los archivos en csv que resultaron de la partición de los datos.
+
 * Carpeta Modelación: Contiene 3 libros de jupyter con los codigos que se utilizaron durante la solución del proyecto, el primero de partición de los datos, el segundo hace referencia a la modelación y el ultimo a la evaluacion del modelo.
+
 * Carpeta Resultados Muestra: Contiene unos archivos resultados del modelo y la evaluación, esto es solo una muestra pequeña de todos los resultados, la totalidad de los resultados se encuentran almacenados en S3.
+
+* Archivo PDF: Trabajo entregado con la solución y resultados del proyecto.
